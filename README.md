@@ -1,10 +1,13 @@
 
 
 # Weekly Assignment W0
+
 **Deliverables**
+
 Basic Markdown Structure, Semantics, and Version Control System GitHub
 
 **Task**
+
 1. Create the fundamental Markdown structure for your responsive website.
 2. Emphasize the utilization of proper Markdown semantics for each element.
 3. Develop the core content of your website, including headers, paragraphs, and images.
@@ -22,9 +25,9 @@ Let me introduce myself, my name is Iman Maris, I am a mechanical engineering gr
 
 ### Hobbies
 My hobby :
-* futsal
-* bicycling
-* table tennis
+* `Futsal`
+* `Bicycling`
+* `Table tennis`
 
 ### Social Media
 |Social media|link|
