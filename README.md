@@ -14,6 +14,8 @@ Basic Markdown Structure, Semantics, and Version Control System GitHub
 4. Initialize a GitHub repository for your project and push your initial Markdown code into it.
 
 ---
+</br>
+
 ## Iman Profile
 
 ### About Me
@@ -21,24 +23,30 @@ Let me introduce myself, my name is Iman Maris, I am a mechanical engineering gr
 
 |Illustration 1|Illustration 2|
 |--------|--------|
-|![control panel](/assets/boilerdiagrm.png)|![operator boiler](/assets/pengorekan.png)|
+|![control panel](/assets/boilerdiagrm.png)|![operator boiler](/assets/pengorekan.png)
+
+</br>
 
 ### Hobbies
 My hobby :
 * `Futsal`
 * `Bicycling`
 * `Table tennis`
+</br>
 
 ### Social Media
+
 |Social media|link|
 |------------|----|
 |![ig](/assets/instagram.256x73.png)|https://instagram.com/imanmaris99?igshid=OGQ5ZDc2ODk2ZA==|
+
+</br>
+
 ### Revou Course
 I chose to take a software engineering course at Revou in the hope of gaining new knowledge that would be useful for my future career development.
 
---
+</br>
 
 ---
-
-![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)
+###### <center>last created on October 13, 2023</center>
 
