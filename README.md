@@ -1,52 +1,24 @@
 
-
-# Weekly Assignment W0
+# Weekly Assignment W1
 
 **Deliverables**
 
-Basic Markdown Structure, Semantics, and Version Control System GitHub
+Basic Website with HTML, CSS & Javascript.
 
 **Task**
 
-1. Create the fundamental Markdown structure for your responsive website.
-2. Emphasize the utilization of proper Markdown semantics for each element.
-3. Develop the core content of your website, including headers, paragraphs, and images.
-4. Initialize a GitHub repository for your project and push your initial Markdown code into it.
+1. Implement basic CSS to style your website.
+2. Add simple JavaScript functionality to enhance user interactions.
+3. Create a functional form on your website that includes input types (text, textarea), a submit button, and at least one of the following: radio buttons, checkboxes, or a select dropdown.
+4. Style your form to align with your website's design.
+5. Deploy your app into Netlify
+
 
 ---
 </br>
 
-## Iman Profile
-
-### About Me
-Let me introduce myself, my name is Iman Maris, I am a mechanical engineering graduate, my last job was as a boiler operator in one of the sugar factory power plants in the Pati area.
-
-|Illustration 1|Illustration 2|
-|--------|--------|
-|![control panel](/assets/boilerdiagrm.png)|![operator boiler](/assets/pengorekan.png)
-
+<h4 style="text-align:center;"> ...</h4>
 </br>
 
-### Hobbies
-My hobby :
-* `Futsal`
-* `Bicycling`
-* `Table tennis`
-</br>
-
-### Social Media
-
-|Social media|link|
-|------------|----|
-|![ig](/assets/instagram.256x73.png)|https://instagram.com/imanmaris99?igshid=OGQ5ZDc2ODk2ZA==|
-
-</br>
-
-### Revou Course
-I chose to take a software engineering course at Revou in the hope of gaining new knowledge that would be useful for my future career development.
-
-</br>
-
----
-###### <center>last created on October 13, 2023</center>
+<h5 style="text-align:center;"> still in progress &#128591; &#128679;</h5>
 
