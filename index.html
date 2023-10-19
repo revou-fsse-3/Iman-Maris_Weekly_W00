@@ -13,6 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
 </head>
 <body>
 
@@ -25,7 +26,7 @@
             alt="surface plating logo"            
             style="width:40px; height:40px;"/>
 
-          <b><em>Surface Plating Service</em></b>
+          <b><em>SURFACE PLATING SERVICE</em></b>
 
           <span class="copyright">&copy</span>
         </span>
@@ -49,7 +50,7 @@
     <!-- HEADING -->
 
     <header id="header" class="first-header">
-        <h1>Surface Plating Solutions</h1>
+        <h1>SURFACE PLATING SOLUTIONS</h1>
         <p>Meningkatkan Kualitas dan Tahan Lama Produk Anda</p>
     </header>
     
@@ -63,7 +64,7 @@
                 <h3>Electroplating</h3>
                 
                 <img width="100%" src="https://nunstreetplating.co.uk/wp-content/uploads/2013/01/nickel_letter_final.jpg" alt="Electroplating">
-                <p>Proses pelapisan logam, dengan menggunakan bantuan arus listrik dan senyawa kimia tertentu guna memindahkan partikel logam pelapis ke material yang hendak dilapis..</p>
+                <p>Proses pelapisan logam, dengan menggunakan bantuan arus listrik dan senyawa kimia tertentu guna memindahkan partikel logam pelapis ke material yang hendak dilapis.</p>
             </div>
             <div class="layanan-item2">
                 <h3>Anodizing</h3>
@@ -105,9 +106,19 @@
                     <p>Rack and Barrel on Steel, Stainless, Aluminium, Brass, and Copper.</p>
                 </div>       
 
-
             </div>
+        </section>
 
+        <section id="proses-produksi">
+            <h2>Proses Produksi</h2>
+            <div class="produksi">
+                <h3>Proses Electroplating</h3>
+                <p>Sumber : GADHIA AGENCIES - SINCE 1967
+                    RAJKOT (GUJARAT) INDIA.</p>
+                
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/iLgiTAz86Hw?si=qLu1hPKN1cTL1pwf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            
+            </div>   
         </section>
     
         <section id="kontak">
@@ -120,6 +131,15 @@
                         <label for="fname">Nama:</label>
                         <input type="text" id="fname" name="fname" required=""><br>  
                     </div>
+                    <div>
+                        <p>Jenis Kelamin:
+                        <select name='gender'>
+                            <option value='pria' selected='selected'>Laki-laki</option>           
+                            <option value='wanita'>Perempuan</option>
+                        </select>
+                        </p>
+                    </div>
+                    <div>
                     <div>
                         <label for="hname">Nomor Handphone:</label>
                         <input type="text" id="hname" name="hname" required=""><br>
@@ -134,8 +154,8 @@
                     </div>
 
                     </br>
-                    <div>
-                        <button type="submit">KIRIM</button>
+                    <div class="submit">
+                        <input type="button" onclick="addContact()" value="KIRIM" />
                     </div>
 
                 </fieldset>
