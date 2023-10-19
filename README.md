@@ -17,8 +17,8 @@ Basic Website with HTML, CSS & Javascript.
 ---
 </br>
 
-<h4 style="text-align:center;"> ...</h4>
+<h4 align="center"> ...</h4>
 </br>
 
-<h5 style="text-align:center;"> still in progress &#128591; &#128679;</h5>
+<h5 align="center"> still in progress &#128591; &#128679;</h5>
 
