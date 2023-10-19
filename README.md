@@ -127,7 +127,8 @@ Discusses material final processing services in various ways, especially special
 
 |       Tool     | Tool Website | My Link Website|
 |----------------|--------------|----------------|
-|<img width="30%" src="https://logowik.com/content/uploads/images/vercel1868.jpg">|[Vercel](https://vercel.com/)|[Module1-Iman](https://module-1-imanmaris.vercel.app/)|
+|<img width="30%" src="https://logowik.com/content/uploads/images/vercel1868.jpg">|[Vercel](https://vercel.com/)|[Module1-Iman(vercel deploy)](https://module-1-imanmaris.vercel.app/)|
+|<img width="30%" src="https://pbs.twimg.com/profile_images/1633183038140981248/Mz4bv8Ja_400x400.png">|[Netlify](https://app.netlify.com/)|[Module1-Iman(netlify deploy)](https://delightful-pixie-c253af.netlify.app/)|
 
 
 <br>
