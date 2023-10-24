@@ -1,9 +1,9 @@
 
-# Weekly Assignment W1
+# Weekly Assignment Week2
 
 **Deliverables**
 
-Basic Website with HTML, CSS & Javascript.
+Basic Website with HTML, CSS, simple Javascript and responsive website.
 
 **Task**
 
@@ -11,13 +11,14 @@ Basic Website with HTML, CSS & Javascript.
 2. Add simple JavaScript functionality to enhance user interactions.
 3. Create a functional form on your website that includes input types (text, textarea), a submit button, and at least one of the following: radio buttons, checkboxes, or a select dropdown.
 4. Style your form to align with your website's design.
-5. Deploy your app into Netlify
+5. Deploy website
+6. Create a responsive website, minimal 2 category (Dekstop and mobile)
 
 
 ---
 </br>
 
-## My Wesbsite
+## My Wesbsite (Still in progress&#128679;&#128679;)
 
 ### About Content
 
@@ -35,83 +36,23 @@ Discusses material final processing services in various ways, especially special
     ```
 2. Heading.
     ```html
-        <header class="first-header"></header>
+        <header class="first-header">
+            <!--dalam pengerjaan-->
+        </header>
     ```
 3. Main Display.
     ```html
         <main>
-    
-            <section id="layanan">
-                <h2>Layanan Kami</h2>
-                <div class="layanan-item1"></div>
-                <div class="layanan-item2"></div>
-            </section>
-        
-            <section id="proyek">
-                <h2>Proyek Kami</h2>
-                <div class="proyek-item">
-                    <h3></h3>
-                    <ul class="menu-bar">
-                        <li><a href=".layanan-item3"></a></li>
-                        <li><a href=".layanan-item4"></a></li>
-                        <li><a href=".layanan-item5"></a></li>
-                    </ul>
-                </div>
-
-                <div class="proyek-display">
-                    <div class="layanan-item3">
-                        <h4></h4>
-                        <img src="" alt="">
-                    </div>            
-                    <div class="layanan-item4">
-                        <h4></h4>
-                        <img src="" alt="">
-                    </div>
-                    <div class="layanan-item5">
-                        <h4></h4>
-                        <img src="" alt="">
-                    </div>       
-                </div>
-            </section>
-
-            <section id="proses-produksi">
-                <h2>Proses Produksi</h2>
-                <div class="produksi">
-                    <h3></h3>
-                    <p></p>                   
-                    <iframe width="" height="" src="" title=""></iframe>
-                </div>
-            </section>
-        
-            <section id="kontak">
-                <h2>Hubungi Kami</h2>               
-                <form>
-                    <fieldset>
-                        <legend></legend>
-                        <div>
-                            <label for="fname"></label>
-                            <input type="text" id="fname" name="fname" required=""> 
-                        </div>
-                        <div>
-                            <p></p>
-                            <textarea id="pesan" name="pesan"></textarea>
-                        </div>
-                        <div>
-                            <button type="submit"></button>
-                        </div>
-                    </fieldset>
-                </form>
-
-                <address></address>
-            </section>
-
+            <!--dalam pengerjaan-->
         </main>
+
     ```
 4. Footer.
     ```html
-            <footer class="last-footer">
-            <p></p>
-            </footer>
+        <footer>
+            <!--dalam pengerjaan-->
+        </footer>
+        
     ```
     <br>
 
@@ -127,8 +68,10 @@ Discusses material final processing services in various ways, especially special
 
 |       Tool     | Tool Website | My Link Website|
 |----------------|--------------|----------------|
-|<img width="30%" src="https://logowik.com/content/uploads/images/vercel1868.jpg">|[Vercel](https://vercel.com/)|[Module1-Iman(vercel deploy)](https://module-1-imanmaris.vercel.app/)|
-|<img width="30%" src="https://pbs.twimg.com/profile_images/1633183038140981248/Mz4bv8Ja_400x400.png">|[Netlify](https://app.netlify.com/)|[Module1-Iman(netlify deploy)](https://delightful-pixie-c253af.netlify.app/)|
+|<img width="30%" src="https://logowik.com/content/uploads/images/vercel1868.jpg">|[Vercel](https://vercel.com/)|[SOON](https://module-1-imanmaris.vercel.app/)|
+|<img width="30%" src="https://pbs.twimg.com/profile_images/1633183038140981248/Mz4bv8Ja_400x400.png">|[Netlify](https:///)|[SOON](https:///)|
+
+
 
 
 <br>
@@ -136,7 +79,9 @@ Discusses material final processing services in various ways, especially special
 
 ---
 
-<p align="center">last created on October 19, 2023</p>
+
+<h3 align="center">Still in progress &#128710;&#128679;&#128679;</h3>
+<p align="center">last created on October 24, 2023</p>
 <p align="center"><i>copyright &copy; 2023</i></p>
 
 

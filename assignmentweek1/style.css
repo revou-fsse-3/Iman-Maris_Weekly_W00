@@ -1,0 +1,216 @@
+
+
+body {
+    background-color: #EEEEEE;
+    font-family: roboto;
+    margin: 0%;
+}
+
+
+/*-----navigasi-----*/
+nav {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 10%;
+    background-color: #E5D283;
+    z-index: 12;
+  }
+.main-logo {
+    position: relative;
+  }
+nav > span {
+    display: flex;
+    align-items: center;
+  }
+nav > span > img {
+    height: 32px;
+    width: auto;
+    padding: 10px;
+  }
+
+em {
+    color: #4F709C;
+    font-family: roboto ;
+    text-shadow: 0.5px 0.5px 0px #D7DACC, 3px 3px 0px rgba(0,0,0,0.1);
+  }
+
+nav .copyright {
+  font-size: x-small;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 18px;
+  right: -7px;
+  }
+
+.desktop {
+    display: block;
+  }
+
+nav > ul {
+    margin-left: auto;
+    margin-right: 16px;
+  }
+
+nav > ul > li {
+    display: inline-block;
+    color: #213555;
+  }
+
+nav > ul > li > a {
+    color: #213555;
+    font-family: roboto ;
+    font-size: medium;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+
+/*-- HEADING DISPLAY --*/
+
+header {
+    text-align: center;
+    text-shadow: 2px 2px #E5D283;
+    background-image: url(https://shuobaocn.com/wp-content/uploads/2017/10/%E7%B4%A7%E5%9B%BA%E4%BB%B6%E6%8F%92%E5%9B%BE2.jpg);opacity: 0.75;
+    background-size: cover;
+    height: 250px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-blend-mode: normal, lighten, soft-light;
+    width: 100%;
+    min-height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 120px;
+    padding-bottom: 60px;
+    
+  }
+
+/*--- MAIN DISPLAY --*/
+
+main {
+    /*font-style: courier,arial,helvetica;*/
+    background-color: #F0F0F0;
+    margin:30px 5px;
+  }
+
+#layanan {
+  text-align: center;
+}
+
+#layanan .layanan-item1{
+  background-color: #F5F7F8;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#layanan .layanan-item2{
+  margin-top: 10px;
+  background-color: #F5F7F8;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#proyek{
+  margin-top: 10px;
+  background-color: #F5F7F8;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#proyek h2{
+  text-align: center;
+}
+
+#proyek .proyek-display{
+display:flex;
+gap: 30px;
+justify-content: center;
+text-align: center;
+}
+
+
+#proses-produksi{
+  margin-top: 10px;
+  background-color: #F5F7F8;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#proses-produksi h2{
+  text-align: center;
+}
+
+
+
+
+/*--CONTACT AREA--*/
+
+#kontak{
+  margin-top: 10px;
+  background-color: #F5F7F8;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#kontak h2{
+  text-align: center;
+}
+
+form {
+  font-size: medium;
+  font-family: 'Roboto Mono',monospace;
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+input[type="text"],input[type="email"], textarea {
+  width: 97.5%;
+  padding: 4px 4px;
+  margin: 8px 0;
+  display: inline-block;
+}
+
+select{
+  width: 100%;
+  padding: 4px 4px;
+  margin: 8px 0;
+  display: inline-block;
+}
+
+input[type="date"]{
+  width: 97.5%;
+  padding: 4px 4px;
+  margin: 8px 0;
+  display: inline-block;
+}
+
+.submit{
+  display: flex;
+  justify-content: center;
+}
+
+input[type="button"]{
+  width: 50%;
+  height: 50px;
+  border-radius: 10px;
+  padding: 4px 4px;
+  margin: 8px 0;
+  background-color: rgba(0, 128, 0, 0.038);
+  cursor: pointer;
+}
+
+address{
+  text-align: center;
+}
+
+
+footer{
+  text-align: center;
+  
+}
