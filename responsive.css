@@ -1,0 +1,29 @@
+@media only screen and (max-width: 700px) {
+    /* For tablets: */
+    
+
+    nav {
+        position: fixed;
+        width: 100%;
+        justify-content: space-between;
+        height: 8%;
+        background-color: #e5d183ec;
+        z-index: 12;
+      }
+
+    nav .mobile{
+        padding-right: 5%;
+        display: flex;
+        position:static;
+      }
+
+    nav > ul {
+        display: none;
+          }
+    
+    .mading-1>h1{
+        padding-top: 25%;
+        justify-content: center;
+        text-align: center;
+        }
+  }

@@ -18,7 +18,7 @@ Basic Website with HTML, CSS, simple Javascript and responsive website.
 ---
 </br>
 
-## My Wesbsite (Still in progress&#128679;&#128679;)
+## My Wesbsite ( &#128710;Still in progress&#128679;&#128679;)
 
 ### About Content
 
