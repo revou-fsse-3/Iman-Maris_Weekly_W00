@@ -35,18 +35,26 @@
             </span>
         
             <ul class="menu-bar">
-                <li><a href="#header">Beranda</a></li>
-                <li><a href="#header">Layanan</a></li>
-                <li><a href="#proyek">Proyek Kami</a></li>
-                <li><a href="#kontak">Hubungi Kami</a></li>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#layanan">Our Services</a></li>
+                <li><a href="#product-picture">Available Project</a></li>
+                <li><a href="#kontak">Contact</a></li>
             </ul>
     
-            <span class="mobile">
+            <div class="mobile">
                 <img
                   src="https://user-images.githubusercontent.com/2970318/209647125-dc41103d-c545-4e2e-b89b-099fbfcde702.svg"
                   alt="Hamburger Icon"
                 />
-            </span>  
+
+                <ul id="menu">
+                    <a href="#header"><li>Home</li></a>
+                    <a href="#layanan"><li>Our Services</li></a>
+                    <a href="#product-picture"><li>Available Project</li></a>
+                    <a href="#kontak"><li>Contact</li></a>
+                    <a href="https://github.com/imanmaris99" target="_blank"><li>Show me more</li></a>
+                  </ul>
+            </div>  
         </nav>
 
         <div class="mading-1">    
@@ -151,25 +159,50 @@
             <h3>Various Types of <mark>ELECTROPLATING</mark> are available here</h3>
             <div class="proyek-item">
                 <ul class="menu-bar">
-                    <li><a href=".layanan-item3">Chromium Plating</a></li>
-                    <li><a href=".layanan-item4">Zinc Plating</a></li>
-                    <li><a href=".layanan-item5">Nickel Plating</a></li>
+                    <li><a href=".layanan-item3">Type I: Chromium Plating</a></li>
+                    <li><a href=".layanan-item4">Type II: Zinc Plating</a></li>
+                    <li><a href=".layanan-item5">Type III: Nickel Plating</a></li>
                 </ul>
             </div>    
-                <div class="grid-container">
-                    <div id="pict-1" class="product-herb-picture">
-                        <img src="./assets/Nickel-2.png" alt="Chromium Plating"/>
+
+            <div class="grid-container">
+                <div id="pict-1" class="product-herb-picture">
+                    <img src="./assets/Nickel-2.png" alt="Chromium Plating"/>
                         <figcaption align="center" class="text"><b>Chromium Plating</b> is composed of Rack and Barrel on Steel, Aluminum, Brass, and Copper.</figcaption>
-                    </div>          
-                    <div id="pict-3" class="product-herb-picture">
-                        <img src="https://lakecityplating.com/wp-content/uploads/2018/07/IMG_0041.jpg" alt="Zinc Plating"/>
+                </div>          
+                <div id="pict-3" class="product-herb-picture">
+                    <img src="https://lakecityplating.com/wp-content/uploads/2018/07/IMG_0041.jpg" alt="Zinc Plating"/>
                         <figcaption align="center" class="text"><b>Zinc Plating</b> is composed of Rack and Barrel on Steel, Brass, and Copper.</figcaption>
-                    </div>
-                    <div id="pict-4" class="product-herb-picture">
-                        <img src="./assets/chorme.png" alt="Nickel Plating"/>
-                        <figcaption align="center" class="text"><b>Nickel Plating</b> is composed of Rack and Barrel on Steel, Stainless, Aluminum, Brass, and Copper.</figcaption>
-                    </div>               
                 </div>
+                <div id="pict-4" class="product-herb-picture">
+                    <img src="./assets/chorme.png" alt="Nickel Plating"/>
+                        <figcaption align="center" class="text"><b>Nickel Plating</b> is composed of Rack and Barrel on Steel, Stainless, Aluminum, Brass, and Copper.</figcaption>
+                </div>               
+            </div>
+
+            <!------------------------------------------FITURE FOR MOBILE ------------------------------------------>
+
+            <div class="w3-content w3-display-container">
+                <button class="w3-button" onclick="plusDivs(-1)">&#10094;</button>
+
+                <div id="pict-1" class="mySlides">
+                    <img src="https://img.directindustry.com/images_di/photo-mg/205523-17798049.jpg" alt="Chromium Plating"/>
+                        <figcaption align="center" class="text"><b>Chromium Plating</b> is composed of Rack and Barrel on Steel, Aluminum, Brass, and Copper.</figcaption>
+                </div>          
+                <div id="pict-2" class="mySlides">
+                    <img src="https://aerospacemetalsllc.com/wp-content/uploads/2020/10/Achieving-the-Perfect-ZINC-PLATE.jpg" alt="Zinc Plating"/>
+                        <figcaption align="center" class="text"><b>Zinc Plating</b> is composed of Rack and Barrel on Steel, Brass, and Copper.</figcaption>
+                </div>
+                <div id="pict-3" class="mySlides">
+                    <img src="https://platingtechnology.com/wp-content/uploads/2020/11/Electroless-Nickel-1-500x250.jpg" alt="Nickel Plating"/>
+                        <figcaption align="center" class="text"><b>Nickel Plating</b> is composed of Rack and Barrel on Steel, Stainless, Aluminum, Brass, and Copper.</figcaption>
+                </div>  
+              
+                <button class="w3-button" onclick="plusDivs(1)">&#10095;</button>
+
+              </div>
+            <!--------------------------------------------------MOBILE END----------------------------------------------->
+
         </section>
 
 
@@ -189,7 +222,7 @@
                     <figcaption align="center" class="text"><b>Chromic acid </b>is the main catalyst in the oxide layer formation in this process type.</figcaption>
                  </div>          
                 <div id="pict-3" class="product-herb-picture">
-                    <img src="https://2.imimg.com/data2/JT/PV/MY-3418577/sulfuric-acid-anodizing-500x500.jpg" alt="Sulfuric Acid Anodizing"/>
+                    <img src="https://elite-metalfinishing.com/images/anodize-02.jpg" alt="Sulfuric Acid Anodizing"/>
                     <figcaption align="center" class="text">Employs <b>Sulfuric acid</b> rather than chromic acid and is the most popular method in aluminum anodizing.</figcaption>
                 </div>
                 <div id="pict-4" class="product-herb-picture">
@@ -197,7 +230,34 @@
                     <figcaption align="center" class="text"><b>Hard anodizing</b> type also employs sulfuric acid but at a lower temperature and higher voltage and current density.</figcaption>
                 </div>               
             </div>
+
+            <!------------------------------------------FITURE FOR MOBILE ------------------------------------------>
+
+            <div class="w3-content w3-display-container">
+                <button class="w3-button w3-black w3-display-left" onclick="plusDivs2(-1)">&#10094;</button>
+
+                <div id="pict-4" class="mySlides-2">
+                    <img src="https://kdmfab.com/wp-content/uploads/2022/11/Chromic-Acid-Anodizing-768x432.jpg" alt="Chromic Acid Anodizing"/>
+                    <figcaption align="center" class="text"><b>Chromic acid </b>is the main catalyst in the oxide layer formation in this process type.</figcaption>
+                </div>          
+                <div id="pict-5" class="mySlides-2">
+                    <img src="https://elite-metalfinishing.com/images/anodize-02.jpg" alt="Sulfuric Acid Anodizing"/>
+                    <figcaption align="center" class="text">Employs <b>Sulfuric acid</b> rather than chromic acid and is the most popular method in aluminum anodizing.</figcaption>
+                </div>
+                <div id="pict-6" class="mySlides-2">
+                    <img src="https://cdn2.hubspot.net/hubfs/2297913/Diamond/Tech/Hard%20anodizing/004-diamond-hard-anodizing-pistons.jpg" alt="Hard Anodizing"/>
+                    <figcaption align="center" class="text"><b>Hard anodizing</b> type also employs sulfuric acid but at a lower temperature and higher voltage and current density.</figcaption>
+                </div>  
+              
+                <button class="w3-button w3-black w3-display-right" onclick="plusDivs2(1)">&#10095;</button>
+
+              </div>
+            <!--------------------------------------------------MOBILE END----------------------------------------------->
+
         </section>
+
+
+
 
         <section id="proses-produksi">
             <h2>Proses Produksi</h2>
@@ -213,26 +273,26 @@
         </section>
     
         <section id="kontak">
-            <h2>Hubungi Kami</h2>
+            <h2>CONTACT US</h2>
             
             <form>
                 <fieldset>
-                    <legend>Personalia:</legend>
+                    <legend>Personal Data:</legend>
                     <div>
-                        <label for="fname">Nama:</label>
+                        <label for="fname">Name:</label>
                         <input type="text" id="fname" name="fname" required="please input your name here">  
                     </div>
                     <div>
-                        <p>Jenis Kelamin:
+                        <p>Gender:
                         <select name='gender'>
-                            <option value='pria' selected='selected'>Laki-laki</option>           
-                            <option value='wanita'>Perempuan</option>
+                            <option value='pria' selected='selected'>Male</option>           
+                            <option value='wanita'>Female</option>
                         </select>
                         </p>
                     </div>
                     <div>
                     <div>
-                        <label for="hname">Nomor Handphone:</label>
+                        <label for="hname">Phone Number:</label>
                         <input type="text" id="hname" name="hname" required>
                     </div>
                     <div>
@@ -240,13 +300,13 @@
                         <input type="email" id="ename" name="ename" required>
                     </div>
                     <div>
-                        <p>Pesan:</p>
+                        <p>Message:</p>
                         <textarea id="pesan" name="pesan"></textarea>
                     </div>
 
                     </br>
                     <div class="submit">
-                        <input type="button" onclick="addContact()" value="KIRIM" />
+                        <input type="button" onclick="addContact()" value="SUBMIT" />
                     </div>
 
                 </fieldset>
@@ -255,8 +315,8 @@
             </br>
 
             <address>
-                Alamat Fisik: Jalan Mangkudipuro No. 123, Kota Pati, Kode Pos 59185
-                Nomor Telepon: (123) 456-7890
+                Shop Adress: Jl. Mangkudipuro No. 123, City of Pati, Code Post 59185
+                Telp.: (123) 456-7890
                 Email: info@surfaceplating.com
             </address>
 
