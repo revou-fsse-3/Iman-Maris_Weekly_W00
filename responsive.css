@@ -1,5 +1,5 @@
 @media only screen and (max-width: 700px) {
-    /* For tablets: */
+    /* For mobiles: */
     
     nav {
         position: fixed;
@@ -53,6 +53,12 @@
         text-align: justify;
       }
 
+
+    #product-picture {
+        padding-bottom: 15%;
+        background-color: #F5F7F8;
+      }
+
     #product-picture .grid-container{
         display: none;
       }
@@ -60,6 +66,12 @@
     #product-picture-2 .grid-container-2{
         display: none;
 
+      }
+
+    #product-picture-2 {
+        margin-top: 0%;
+        padding-bottom: 15%;
+        background-color: #F5F7F8;
       }
 
     #product-picture .w3-content{
@@ -89,7 +101,41 @@
       }
     
     
+    #proses-produksi{
+        margin-top: 5%;
+        background-color: #F5F7F8;
+        padding-top: 20px;
+        padding-bottom: 5%;
+      } 
+
+    #proses-produksi h2{
+        text-align: center;
+        padding-bottom: 10%;
+      }
       
+    #proses-produksi iframe{
+        text-align: center;
+        padding-top: 5%;
+        padding-bottom: 2%;
+      }
+
+    #kontak h2{
+        margin-top: 5%;
+        background-color: #F5F7F8;
+        padding-top: 10px;
+        padding-bottom: 10%;
+      }
+
+    form fieldset{
+        padding: 20px 10px 10px 10px;
+
+      }
+
+    form fieldset legend{
+        padding: 10px;
+        text-align: center;
+
+      }
     /*
       #product-picture .grid-container {
         display: block;
